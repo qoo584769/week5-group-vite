@@ -21,9 +21,9 @@ git add -A
 git commit -m 'deploy'
 
 # 如果你要部署在 https://qoo584769.github.io
-git push -f git@github.com:qoo584769/qoo584769.github.io.git main
+# git push -f git@github.com:qoo584769/qoo584769.github.io.git main
 
 # 如果你要部署在 https://qoo584769.github.io/week5-group-vite
-# git push -f git@github.com:qoo584769/week5-group-vite.git main:gh-pages
+git push -f https://github.com/qoo584769/week5-group-vite.git main:gh-pages
 
 cd -
